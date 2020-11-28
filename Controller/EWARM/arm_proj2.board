@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_board>
+    <pass>
+        <loader>$TOOLKIT_DIR$\config\flashloader\ST\FlashSTM32F04xx6.flash</loader>
+        <range>CODE 0x8000000 0x8007fff</range>
+        <args>--enable_config_write</args>
+    </pass>
+</flash_board>
